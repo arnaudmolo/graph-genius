@@ -1,5 +1,5 @@
 {
-  "name": "TODO",
+  "name": "Ra",
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
@@ -15,14 +15,19 @@
     "@types/pouchdb": "^6.3.3",
     "axios": "^0.18.0",
     "compression": "^1.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
     "localforage": "^1.7.3",
-    "polka": "^0.5.0",
+    "mongodb": "^3.2.6",
     "pouchdb": "^7.0.0",
     "pouchdb-browser": "^7.0.0",
+    "ramda": "^0.26.1",
     "sirv": "^0.4.0",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.0.0",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
+    "http-proxy-middleware": "^0.19.1",
     "npm-run-all": "^4.1.5",
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
